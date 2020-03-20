@@ -1,0 +1,207 @@
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+html {
+  background-color:gray;
+  font-family: 'Quattrocento Sans', sans-serif;
+}
+body {
+  width:100%;
+  max-width:1366px;
+  min-width:1080px;
+  height:auto;
+  margin:0 auto;
+}
+#main_body {
+  width:100%;
+  height:auto;
+  background-color:white;
+}
+nav {
+  height:130px;
+  width:100%;
+  margin:0 auto;
+  overflow:hidden;
+  font-family: 'Quattrocento', serif;
+  color:white;
+  background-color: #791B99;
+}
+nav p {
+  float:left;
+  margin-left:20px;
+  font-size: 35px;
+  text-align: center;
+  margin-top:5px;
+}
+nav ul {
+  list-style:none;
+  margin-top:10px;
+}
+nav ul li {
+  float:right;
+  font-size:30px;
+  margin-right:35px;
+  text-align: center;
+}
+.nav_menu {
+  display:none;
+}
+main {
+  position:relative;
+  width:100%;
+  height:1724px;
+  margin:0 auto;
+  margin-top:-2px;
+  font-size:30px;
+}
+.Uni_slogan, .stu_quote{
+  position:absolute;
+  left:50%;
+  margin-left:-47.5%;
+  width:95%;
+  border:2px solid;
+}
+.Uni_slogan {
+  position:relative;
+  top:20px;
+  height: 400px;
+  background-image: url(../img/slogan_img.jpg);             /* This icon is made by myself */
+  background-size:cover;                               /* The idea of using 'background-size:cover' comes from https://blog.csdn.net/wzj2584454/article/details/78100233 */
+  background-position:center;
+}
+.slogan_words {
+  text-align:center;
+  margin-top:280px;
+  color:#fff;
+  font-size:45px;
+  width:100%;
+  height:auto;
+  text-shadow: 5px 5px 10px rgba(0,0,0,0.9);
+}
+.slogan_words p.words2 {
+  display:none;
+}
+div.words3 {
+  display:none;
+}
+.study_box, .research_box {
+  position:absolute;
+  top:440px;
+  width:45%;
+  height: 480px;
+  border:2px solid;
+  overflow: hidden;
+  color:white;
+  background-color: #791B99;
+}
+.study_box {
+  left:50%;
+  margin-left: -47.5%;
+}
+.study_words h4, .research_words h4 {
+  margin:0 15px;
+  margin-bottom:0;
+}
+.study_words p, .research_words p {
+  margin:5px 15px;
+  font-size:0.8em;
+}
+.research_box {
+  right:50%;
+  margin-right:-47.5%;
+}
+.study_img_box, .research_img_box {
+  width:100%;
+  height:70%;
+  background:url(../img/study_img.jpg) no-repeat;               /* Picture comes from https://www.flickr.com/photos/156159384@N02/35615946535/*/
+  background-size: 100%;
+}
+.research_img_box {
+  background-image: url(../img/research_img.jpg);              /* Picture comes from https://www.flickr.com/photos/lonnon/460865053/*/
+  background-position:0 -50px;
+}
+
+.stu_quote {
+  position:absolute;
+  top:940px;
+  height:350px;
+  overflow:hidden;
+  color:white;
+  background-color: #A993FF;
+}
+.stu_words {
+  float:left;
+  margin-top:100px;
+  margin-left:35px;
+  width:65%;
+  height:auto;
+}
+.stu_words p{
+  font-style:italic;
+  font-size:1.1em;
+}
+.student {
+  float:left;
+  font-size:1em;
+  margin-top:230px;
+  margin-left:-250px;
+}
+.stu_quote img {
+  float:right;
+  height:100%;
+}
+.news, .news_box {
+  position:absolute;
+  top: 1310px;
+  left:50%;
+  margin-left:-47.5%;
+  width:95%;
+  height: 50px;
+  font-weight:bold;
+}
+.news_box {
+  top:1360px;
+  width:95%;
+  height: 400px;
+  font-weight:normal;
+}
+.news1_box, .news2_box, .news3_box {
+  position:absolute;
+  top:0px;
+  height:345px;
+  width:30%;
+  border:2px solid;
+  overflow:hidden;
+  color:white;
+  background-color: #9A55B2;
+}
+.news1_box {
+  left:0;
+}
+.news3_box {
+  right:0;
+}
+.news2_box {
+  left:50%;
+  margin-left:-15%;
+}
+.news1_img, .news2_img, .news3_img {
+  width:100%;
+  height:70%;
+  background:url(../img/news1.jpg) no-repeat;             /* Picture comes from https://www.flickr.com/photos/gorekun/8278807745*/
+  background-size: cover;
+  background-position: center;                           /* The idea of using 'background-size:cover' comes from https://blog.csdn.net/wzj2584454/article/details/78100233 */
+}
+.news2_img {
+  background-image:url(../img/news2.png);             /* Picture comes from https://www.flickr.com/photos/-jamesn-/28807263626*/
+}
+.news3_img {
+  background-image:url(../img/news3.jpg);              /* Picture comes from https://www.flickr.com/photos/cambridgeuniversity-engineering/36882682751/*/
+}
+.news_box p {
+  font-size:28px;
+  margin-top:5px;
+  margin-left:10px;
+}

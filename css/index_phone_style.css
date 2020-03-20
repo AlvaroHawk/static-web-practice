@@ -1,0 +1,299 @@
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+html {
+  background-color:gray;
+  font-family: 'Quattrocento Sans', sans-serif;
+}
+body {
+  width:100%;
+  max-width:1080px;
+  min-width:355px;
+  height:auto;
+  margin:0 auto;
+}
+#main_body {
+  width:100%;
+  height:auto;
+  background-color:white;
+}
+nav {
+  position:relative;
+  height:130px;
+  width:100%;
+  margin:0 auto;
+  overflow:hidden;
+  font-family: 'Quattrocento', serif;
+  color:white;
+  background-color: #791B99;
+}
+nav p {
+  float:left;
+  margin-left:15px;
+  font-size: 30px;
+  text-align: center;
+  margin-top:5px;
+}
+nav ul {
+  display:none;
+}
+.nav_menu {
+  width:50px;
+  height:30%;
+  background-image:url(../img/menu_icon.jpg);            /* This icon is made by myself */
+  background-size:cover;                                 /* The idea of using 'background-size:cover' comes from https://blog.csdn.net/wzj2584454/article/details/78100233 */
+  background-position:center;
+  float:right;
+  margin-top:15px;
+  margin-right:5px;
+}
+@media(max-width:450px) {
+  footer p {
+    display:none;
+  }
+}
+main {
+  position:relative;
+  width:100%;
+  height:auto;
+  border:1px solid;
+  margin:0 auto;
+  margin-top:-1px;
+  font-size:24px;
+}
+.Uni_slogan {
+  margin:0 auto;
+  width:95%;
+  height: 380px;
+  background-image: url(../img/slogan_img.jpg);    /* Picture is provided by course work material*/
+  background-size:cover;                          /* The idea of using 'background-size:cover' comes from https://blog.csdn.net/wzj2584454/article/details/78100233 */
+  background-position:center;
+}
+.slogan_words {
+  display:none;
+}
+.words3 {
+  text-align:center;
+  font-size:1.3em;
+}
+.study_box, .research_box {
+  width:95%;
+  height:auto;
+  margin:10px auto;
+  overflow:hidden;
+  line-height:30px;
+  color:white;
+  background-color: #791B99;
+}
+.study_words h4, .research_words h4 {
+  margin-left:5px;
+  font-size:25px;
+}
+.study_words p, .research_words p {
+  margin-left:5px;
+  font-size:22px;
+}
+.study_img_box, .research_img_box {
+  width:100%;
+  height:280px;
+}
+.study_img, .research_img {
+  width:100%;
+  height:100%;
+  background-image:url(../img/study_img.jpg);           /* Picture comes from https://www.flickr.com/photos/156159384@N02/35615946535/*/
+  background-size:cover;
+  background-position:center;
+}
+.research_img {
+  background-image:url(../img/research_img.jpg)          /* Picture comes from https://www.flickr.com/photos/lonnon/460865053/*/
+}
+.stu_quote {
+  position:static;
+  width:95%;
+  margin:10px auto;
+  color:white;
+  background-color: #A993FF;
+}
+.stu_quote img {
+  display:none;
+}
+.stu_words {
+  font-style:italic;
+  margin-left:20px;
+}
+.student {
+  margin-left:50%;
+}
+@media(max-width:500px) {
+  nav p {
+    display:block;
+    width:200px;
+    margin-left:0;
+  }
+  .student {
+    margin-left:40%;
+  }
+  footer ul {
+    font-size:25px;
+  }
+  footer p {
+    font-size:25px;
+  }
+  div.words3 {
+    font-size:1em;
+  }
+}
+.news {
+  display:none;
+}
+.news_box {
+  width:95%;
+  height:auto;
+  margin:10px auto;
+}
+.news1_box, .news2_box, .news3_box {
+  width:100%;
+  height:280px;
+  overflow:hidden;
+  line-height:27px;
+  color:white;
+  background-color: #9A55B2;
+  margin-top:5px;
+}
+.news1_img, .news2_img, .news3_img {
+  width:100%;
+  height:70%;
+  background-image:url(../img/news1.jpg);                /* Picture comes from https://www.flickr.com/photos/gorekun/8278807745*/
+  background-size:cover;
+  background-position:center;
+}
+.news2_img {
+  background-image:url(../img/news2.png)                 /* Picture comes from https://www.flickr.com/photos/-jamesn-/28807263626*/
+}
+.news3_img {
+  background-image:url(../img/news3.jpg)                     /* Picture comes from https://www.flickr.com/photos/cambridgeuniversity-engineering/36882682751/*/
+}
+.news_box p {
+  margin-left:10px;
+  font-size:22px;
+}
+@media(min-width:925px) {
+  main {
+    height:1724px;
+  }
+  .study_box, .research_box {
+    position:absolute;
+    top:440px;
+    width:45%;
+    height: 25%;
+    overflow: hidden;
+  }
+  .study_box {
+    left:50%;
+    margin-left: -47.5%;
+  }
+  .study_words h4, .research_words h4 {
+    margin:0 15px;
+    margin-bottom:0;
+  }
+  .study_words p, .research_words p {
+    margin:5px 15px;
+    font-size:0.9em;
+  }
+  .research_box {
+    right:50%;
+    margin-right:-47.5%;
+  }
+  .study_img_box, .research_img_box {
+    width:100%;
+    height:70%;
+    background-image:url(../img/study_img.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .research_img {
+    background-image: url(../img/research_img.jpg);
+  }
+  .stu_quote {
+    position:absolute;
+    top:920px;
+    left:50%;
+    margin-left:-47.5%;
+    width:95%;
+    height:350px;
+  }
+  .stu_words {
+    float:left;
+    margin-top:100px;
+    margin-left:35px;
+    width:65%;
+    height:auto;
+  }
+  .stu_words p{
+    font-style:italic;
+    font-size:1.1em;
+  }
+  .student {
+    float:left;
+    font-size:1em;
+    margin-top:230px;
+    margin-left:-250px;
+  }
+  .stu_quote img {
+    display:block;
+    float:right;
+    height:100%;
+  }
+  .news, .news_box {
+    position:absolute;
+    top: 1310px;
+    left:50%;
+    margin-left:-47.5%;
+    width:95%;
+    height: 25%;
+    font-weight:bold;
+  }
+  .news_box {
+    top:1360px;
+    width:95%;
+    height: 43%;
+    font-weight:normal;
+  }
+  .news1_box, .news2_box, .news3_box {
+    position:absolute;
+    top:0px;
+    height:38%;
+    width:30%;
+    overflow:hidden;
+  }
+  .news1_box {
+    left:0;
+  }
+  .news3_box {
+    right:0;
+  }
+  .news2_box {
+    left:50%;
+    margin-left:-15%;
+  }
+  .news1_img, .news2_img, .news3_img {
+    width:100%;
+    height:50%;
+    background-image:url(../img/news1.jpg);
+    background-size:cover;
+    background-position:center;
+  }
+  .news2_img {
+    background-image:url(../img/news2.png);
+  }
+  .news3_img {
+    background-image:url(../img/news3.jpg);
+  }
+  .news_box p {
+    font-size:22px;
+    margin-top:5px;
+    margin-left:10px;
+  }
+}
